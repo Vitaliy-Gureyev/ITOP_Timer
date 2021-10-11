@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import { TimerPage } from './pages/TimerPage';
 
 function App() {
   return (
     <div className="App">
-      Hello from React
+      <TimerPage />
     </div>
   );
 }

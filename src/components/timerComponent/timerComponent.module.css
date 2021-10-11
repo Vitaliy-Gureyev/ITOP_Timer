@@ -1,0 +1,48 @@
+.timerContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 0.5fr 2fr 0.5fr 2fr 2fr;
+  justify-items: center;
+  align-items: center;
+}
+
+article {
+  color: #c8c8c8;
+}
+
+p {
+  font-size: 80px;
+  font-weight: bold;
+  color: #ff6164;
+  line-height: 0;
+}
+
+button {
+  padding: 1rem;
+  background-color: #fafafa;
+  border: 0.15rem solid #d9d9d9;
+  border-radius: 0.5rem;
+  color: #ff6164;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:active {
+  background-color: #ff6164;
+  color: #fafafa;
+}
+button:disabled {
+  color: #c8c8c8;
+}
+
+.buttonsContainer {
+  gap: 0.6rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.command {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: lighter;
+}
