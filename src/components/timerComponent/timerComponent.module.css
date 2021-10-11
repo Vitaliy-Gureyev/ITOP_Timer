@@ -27,9 +27,12 @@ button {
   font-weight: 700;
 }
 
-button:hover {
+button:active {
   background-color: #ff6164;
   color: #fafafa;
+}
+button:disabled {
+  color: #c8c8c8;
 }
 
 .buttonsContainer {
