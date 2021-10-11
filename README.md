@@ -1,3 +1,3 @@
-# ITOP_agency timer 
+# ITOP_agency timer RxJs
 
 TypeScript, React, RxJs
