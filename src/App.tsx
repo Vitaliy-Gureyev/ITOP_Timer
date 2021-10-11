@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
-import {TimerPage} from "./pages/TimerPage";
-
+import { TimerPage } from './pages/TimerPage';
 
 function App() {
-    return (
-        <div className="App">
-            <TimerPage/>
-        </div>
-    );
+  return (
+    <div className="App">
+      <TimerPage />
+    </div>
+  );
 }
 
 export default App;

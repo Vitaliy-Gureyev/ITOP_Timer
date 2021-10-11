@@ -1,1 +1,1 @@
-export * from './timerComponent'
+export * from './timerComponent';

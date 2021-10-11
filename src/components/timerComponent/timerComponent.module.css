@@ -1,47 +1,45 @@
 .timerContainer {
-    height: 100vh;
-    display: grid;
-    grid-template-rows: .5fr 2fr .5fr 2fr 2fr;
-    justify-items: center;
-    align-items: center;
-
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 0.5fr 2fr 0.5fr 2fr 2fr;
+  justify-items: center;
+  align-items: center;
 }
 
-article{
-    color: #C8C8C8;
+article {
+  color: #c8c8c8;
 }
 
 p {
-    font-size: 80px;
-    font-weight: bold;
-    color: #FF6164;
-    line-height: 0;
+  font-size: 80px;
+  font-weight: bold;
+  color: #ff6164;
+  line-height: 0;
 }
 
 button {
-    padding: 1rem;
-    background-color: #FAFAFA;
-    border: .15rem solid #D9D9D9;
-    border-radius: .5rem;
-    color: #FF6164;
-    cursor: pointer;
-    font-weight: 700;
+  padding: 1rem;
+  background-color: #fafafa;
+  border: 0.15rem solid #d9d9d9;
+  border-radius: 0.5rem;
+  color: #ff6164;
+  cursor: pointer;
+  font-weight: 700;
 }
 
 button:hover {
-    background-color: #FF6164;
-    color: #FAFAFA
+  background-color: #ff6164;
+  color: #fafafa;
 }
 
 .buttonsContainer {
-    gap: .6rem;
-    display: flex;
-    justify-content: space-around;
+  gap: 0.6rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .command {
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: lighter;
 }
-
